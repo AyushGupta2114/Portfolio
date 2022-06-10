@@ -1,3 +1,6 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-ReactDom.render(<App/>,document.querySelector("#root"))
+import App from './App'
+import './index.css'
+
+ReactDom.render(<App/>,document.querySelector("#root"));
