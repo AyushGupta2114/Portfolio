@@ -1,6 +1,6 @@
 header{
     height:100uh;
-    padding-top: 7rem;
+    padding-top: 10rem;
     overflow:hidden;
 }
 
@@ -42,7 +42,7 @@ header{
 .me{
     background: linear-gradient(var(--color-primary),transparent);
     width: 22rem;
-    height: 35rem;
+    height: 40rem;
     margin: 4rem ;
     left:calc(50%-11rem);
     border-radius:12rem 12rem  0 0 ;
