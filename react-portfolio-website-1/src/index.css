@@ -132,7 +132,21 @@ img{
     }
 }
 
+/* ====================== MEDIA QUERIES ( MEDIUM DEVICES)==============*/
+@media screen and (max-width:1024px){
+    .container.contact__container{
+        grid-template-columns: 1fr;
+        gap: 2rem;
 
+    }
+}
+
+/* ====================== MEDIA QUERIES ( Small DEVICES)==============*/
+@media screen and (max-width:600px){
+    .container.container.contact__container{
+        width:var(--container-width-sm);
+    }
+}
 
 
 
