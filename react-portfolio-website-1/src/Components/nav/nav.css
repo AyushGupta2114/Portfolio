@@ -13,6 +13,22 @@ nav{
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
+.navbar.colorChange{
+    background: var(--color-bg);
+    transition:var(--transition);
+    width:max-content;
+    display:block;
+    padding:1rem 2rem;
+    z-index:2;
+    position: fixed;
+    left:50%;
+    transform:translate(-50%);
+    bottom:2rem;
+    display:flex;
+    gap:0.8rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(15px);
+}
 
 nav a{
     background: transparent;
@@ -29,5 +45,5 @@ nav a:hover{
 
 nav a.active{
     background: var(--color-primary);
-    color:var(--color-white);
+    color:var(--color-bg);
 }
