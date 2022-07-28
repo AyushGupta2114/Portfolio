@@ -17,17 +17,17 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt=""/>
           </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Face-Detection-Attendance</h3>
            <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
-            <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/AyushGupta2114/Real-Time-Face-Recognition' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Real-Time-Face-Recognition' className='btn btn-primary' target='_blank'>Live Demo</a>
            </div>
         </article>
         <article className='portfolio__item_2'>
           <div className='portfolio__item-image_2'>
             <img src={IMG2} alt=""/>
           </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Portfolio</h3>
             <div className='portfolio__item-cta'>
             <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
             <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -37,7 +37,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image_3'>
             <img src={IMG3} alt=""/>
           </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>SolidWorks 3D - Chassis</h3>
             <div className='portfolio__item-cta'>
             <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
             <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image_4'>
             <img src={IMG4} alt=""/>
           </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Face-Detection</h3>
             <div className='portfolio__item-cta'>
             <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
             <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -57,7 +57,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image_5'>
             <img src={IMG5} alt=""/>
           </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Tic-Tac-Toe</h3>
             <div className='portfolio__item-cta'>
             <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
             <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>

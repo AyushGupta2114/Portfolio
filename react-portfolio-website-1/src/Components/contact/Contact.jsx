@@ -26,21 +26,21 @@ const Contact = () => {
       <div className='container contact__container'>
         <div className='contact__options'>
           <article className='contact__option'>
-            <MdOutlineEmail className='contac__option-icon'/>
+            <MdOutlineEmail size={22} className='contac__option-icon'/>
             <h4>Email</h4>
-            <h5>sumitayush22@gmail.com</h5>
+            <h5>ayushgupta220503@gmail.com</h5>
             <a href="mailto:sumitayushh22@gmail.com" target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
-            <RiMessengerLine className='contac__option-icon'/>
-            <h4>Messenger</h4>
+            <RiMessengerLine size={22} className='contac__option-icon'/>
+            <h4>Messenger </h4>
             <h5>ayush gupta</h5>
             <a href="https://m.me/ernest.achiever"target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
-            <ImWhatsapp className='contac__option-icon'/>
+            <ImWhatsapp size={22} className='contac__option-icon'/>
             <h4>WhatApp</h4>
-            <h5>+</h5>
+            <h5>+8765705001</h5>
             <a href="https://wa.me/8765705001?text="target='_blank'>Send a message</a>
           </article>
         </div>

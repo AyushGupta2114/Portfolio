@@ -24,7 +24,7 @@ const Footer = ()=> {
         <a href='https://instagram.com' target='blank'><BsInstagram size={30}/></a>
       </div>
       <div className="footer__copyright">
-        <small>&copy; Ayush
+        <small>&copy; All rights reserved
 
         </small>
         
