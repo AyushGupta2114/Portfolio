@@ -29,7 +29,7 @@ const Portfolio = () => {
           </div>
             <h3>Portfolio</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Portfolio' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           </div>
             <h3>Face-Detection</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Face-Detection' className='btn' target='_blank'>Github</a>
             <a href="#contact" className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -59,7 +59,7 @@ const Portfolio = () => {
           </div>
             <h3>Tic-Tac-Toe</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Tic-Tac-Toe-game' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
