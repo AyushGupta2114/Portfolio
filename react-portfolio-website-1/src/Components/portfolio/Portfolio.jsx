@@ -39,8 +39,8 @@ const Portfolio = () => {
           </div>
             <h3>SolidWorks 3D - Chassis</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
-            <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/AyushGupta2114/SOLIDWORKS-3D' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/SOLIDWORKS-3D' className='btn btn-primary' target='_blank'>Live Demo</a>
            </div>
         </article>
         <article className='portfolio__item_4'>
@@ -50,7 +50,7 @@ const Portfolio = () => {
             <h3>Face-Detection</h3>
             <div className='portfolio__item-cta'>
             <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
-            <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="#contact" className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
         <article className='portfolio__item_5'>
