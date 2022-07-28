@@ -67,10 +67,10 @@ const Portfolio = () => {
           <div className='portfolio__item-image_6'>
             <img src={IMG6} alt=""/>
           </div>
-            <h3>This is a portfolio item title</h3>
+            <h3>Website_Clone</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114' className='btn' target='_blank'>Github</a>
-            <a href='https://github.com/AyushGupta2114' className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href='https://github.com/AyushGupta2114/Website_Clone' className='btn' target='_blank'>Github</a>
+            <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
       </div>
