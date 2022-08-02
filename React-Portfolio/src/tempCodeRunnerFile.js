@@ -1,1 +1,1 @@
-nder(<App/>,document.querySelector("#root"));
+ment.querySelector("#root"));
