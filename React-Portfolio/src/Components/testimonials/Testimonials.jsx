@@ -29,7 +29,7 @@ const data=[
   },
   {
     avatar: AVTR3,
-    name:'Robert C. Martin',
+    name:'User Experience (UX) Design',
     review:'This specialization course was excellent for learning UI/UX design at all levels, from beginner to advanced.'
   },
 ]
