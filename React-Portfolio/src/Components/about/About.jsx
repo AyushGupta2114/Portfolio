@@ -39,7 +39,7 @@ const About = () => {
       </div>
 
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore cumque impedit beatae commodi maxime! Nostrum sed ratione animi eaque tenetur illo dicta aut eius deserunt incidunt! Ipsam non assumenda maiores.
+      Hello. I am currently pursuing an undergraduate degree in Computer Science and Engineering with a major in AI and ML at SRM Institute of Science and Technology
       </p>
 
       <a href='#contact' className='btn btn-primary'>Lets' Talk</a>

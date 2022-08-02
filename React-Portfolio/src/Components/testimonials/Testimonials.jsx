@@ -19,26 +19,26 @@ import { EffectCards } from "swiper";
 const data=[
   {
     avatar:AVTR1,
-    name:'Tin Show',
-    review:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit itaque optio officiis laboriosam enim quod cupiditate delectus ea, dolorem unde fugit maxime sequi quia dolor! Dignissimos voluptaibus rerum quas sequice"
+    name:'Martin Fowler',
+    review:'Any fool can write code that a computer can understand. Good programmers write code that humans can understand.' 
   },
   {
     avatar: AVTR2,
-    name:'Shatta Wale',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit itaque optio officiis laboriosam enim quod cupiditate delectus ea, dolorem unde fugit maxime sequi quia dolor! Dignissimos voluptatibus rerum quas sequice'
+    name:'Eagleson’s Law',
+    review:'Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else.'
   },
   {
     avatar: AVTR3,
-    name:'Kwame Despite',
-    review:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit itaque optio officiis laboriosam enim quod cupiditate delectus ea, dolorem unde fugit maxime sequi quia dolor! Dignissimos voluptatibus rerum quas sequice'
+    name:'Robert C. Martin',
+    review:'It is not the language that makes programs appear simple. It is the programmer that make the language appear simple!'
   },
 ]
 
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h5>Some</h5>
+      <h2>Quotes</h2>
 
       <Swiper className="container testimonials__container"
          effect={"cards"}
