@@ -49,7 +49,7 @@ header{
     left:calc(50%-11rem);
     border-radius:12rem 12rem  0 0 ;
     overflow: hidden;
-    padding: 5rem 1.5rem 1 0;
+    padding: 5rem 1.5rem 0.1rem 0;
     margin-left: auto;
     margin-right:  auto;
 }
