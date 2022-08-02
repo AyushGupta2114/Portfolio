@@ -20,17 +20,17 @@ const data=[
   {
     avatar:AVTR1,
     name:'Artificial intelligence for Students',
-    review:'" Any fool can write code that a computer can understand. Good programmers write code that humans can understand. "' 
+    review:'This workshop on artificial intelligence and machine learning was wonderful for learning the basics and their applications.' 
   },
   {
     avatar: AVTR2,
-    name:'',
-    review:'" Any code of your own that you haven’t looked at for six or more months might as well have been written by someone else. "'
+    name:'Python for Everybody Specialization',
+    review:'This specialization course was excellent for learning Python at all levels, from beginner to advanced.'
   },
   {
     avatar: AVTR3,
     name:'Robert C. Martin',
-    review:'" It is not the language that makes programs appear simple. It is the programmer that make the language appear simple! "'
+    review:'This specialization course was excellent for learning UI/UX design at all levels, from beginner to advanced.'
   },
 ]
 
