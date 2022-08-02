@@ -43,7 +43,7 @@ body{
 /*=================== GENERAL STYLES ================*/
 .container{
     width:var(--container-width-lg);
-    margin:  auto;
+    margin: 0 auto;
 }
 h1,
 h2,
@@ -137,7 +137,6 @@ img{
     .container.contact__container{
         grid-template-columns: 1fr;
         gap: 2rem;
-
     }
 }
 
