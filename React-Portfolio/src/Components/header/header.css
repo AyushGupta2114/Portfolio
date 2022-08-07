@@ -70,13 +70,14 @@ header{
         height:68vh;
         margin:0 1% 1rem 2.5rem
     }
+
 }
 
 /* ====================== MEDIA QUERIES ( Small DEVICES)==============*/
 @media screen and (max-width:600px){
     header{
         height:100vh;
-     
+        margin:0 0.1% 10% .4rem
     }
     .header__socials,.scroll__down{
         display: none;
