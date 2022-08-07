@@ -97,12 +97,17 @@
     .about__cards{
         grid-template-columns: 1fr 1fr;
         gap:1rem;
+        margin: 0 0.1% 10% .4rem;
+        padding-left: 20px;
+        padding-right: 0px;
     }
     .about__content{
         text-align:center;
+        
     }
 
     .about__content p {
         margin: 10 1.5rem 10;
+        
     }
 }

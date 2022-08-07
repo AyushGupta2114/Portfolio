@@ -15,21 +15,21 @@ const Services = () => {
           </div>
           <ul className='service__list'>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All  size={25} className='service__list-icon'/>
+              <p>this section is for the different stages of education 
+                elit.</p>
+            </li>
+            <li>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing 
                 elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing 
-                elit.</p>
-            </li>
-            <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All  size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25}  className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
@@ -40,23 +40,23 @@ const Services = () => {
           </div>
           <ul className='service__list'>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={25} className='service__list-icon'/>
+              <p>Lorem ipsu jgjhgjgjgj jghgj m dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
@@ -68,19 +68,19 @@ const Services = () => {
           </div>
           <ul className='service__list'>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
-              <BsCheck2All className='service__list-icon'/>
+              <BsCheck2All size={25} className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             

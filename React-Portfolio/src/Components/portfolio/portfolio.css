@@ -179,6 +179,10 @@
 @media screen and (max-width:600px){
     .portfolio__container{
         grid-template-columns: 1fr;
-        gap:1fr;
+        gap:1fr; 
+    }
+    .portfolio__item{
+        margin-left: 1rem;
+        margin:0 0.1% 10% .4rem
     }
 }

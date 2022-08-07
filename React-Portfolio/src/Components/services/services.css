@@ -35,6 +35,7 @@
 
 .service__list{
     padding: 2rem;
+    text-align:none;
 }
 
 .service__list li{
