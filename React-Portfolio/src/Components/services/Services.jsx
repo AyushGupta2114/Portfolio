@@ -39,19 +39,19 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BsCheck2All size={17} className='service__list-icon'/>
-              <p>Technical Associate </p>
+              <p>Technical Associate • Dec 2020 </p>
             </li>
             <li>
               <BsCheck2All size={17} className='service__list-icon'/>
               <p><a target='_blank' linkcolor='--color-bg-varient' href="https://camberracing.com/">Camber Racing</a></p>
             </li>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Committee Head • April 2022</p>
             </li>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsu jgjhgjgjgj jghgj m dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p><a target='_blank' linkcolor='--color-bg-varient' href="https://aaruush.org/">aaruush</a></p>
             </li>
             <li>
               <BsCheck2All size={25} className='service__list-icon'/>
