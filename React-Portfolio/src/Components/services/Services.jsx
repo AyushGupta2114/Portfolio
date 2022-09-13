@@ -34,16 +34,16 @@ const Services = () => {
           </article>
           <article className="service">
           <div className="service__head">
-            <h3>Web Development</h3>
+            <h3>Extra-curricular activities</h3>
           </div>
           <ul className='service__list'>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Technical Associate </p>
             </li>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p><a target='_blank' linkcolor='--color-bg-varient' href="https://camberracing.com/">Camber Racing</a></p>
             </li>
             <li>
               <BsCheck2All size={25} className='service__list-icon'/>
@@ -58,30 +58,32 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
           </ul>
-
           </article>
           <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Soft Skills</h3>
           </div>
           <ul className='service__list'>
-            <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <li>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Problem-Solving</p>
             </li>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Team management</p>
             </li>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Public relations</p>
             </li>
             <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Disciplined</p>
             </li>
-            
+            <li>
+              <BsCheck2All size={17} className='service__list-icon'/>
+              <p>Adaptability</p>
+            </li>
           </ul>
           </article>
       </div>
