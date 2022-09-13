@@ -4,8 +4,8 @@ import IMG1 from '../../assets/real-time.jpg'
 import IMG2 from '../../assets/portfoliomine.jpg'
 import IMG3 from '../../assets/solid_works.jpg'
 import IMG5 from '../../assets/tic3.jfif'
+import IMG4 from '../../assets/price.jfif'
 import IMG6 from '../../assets/webclone.jpg'
-import IMG4 from '../../assets/facedet.jpg'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           </div>
             <h3>Face-Detection</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Face-Detection' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Real-Estate-Price-Prediction' className='btn' target='_blank'>Github</a>
             <a href="#contact" className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
