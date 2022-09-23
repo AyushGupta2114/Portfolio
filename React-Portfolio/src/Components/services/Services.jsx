@@ -53,10 +53,6 @@ const Services = () => {
               <BsCheck2All size={17} className='service__list-icon'/>
               <p><a target='_blank' linkcolor='--color-bg-varient' href="https://aaruush.org/">aaruush</a></p>
             </li>
-            <li>
-              <BsCheck2All size={25} className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
           </ul>
           </article>
           <article className="service">
