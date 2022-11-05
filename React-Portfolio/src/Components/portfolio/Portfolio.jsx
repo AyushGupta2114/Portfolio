@@ -47,7 +47,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image_4'>
             <img src={IMG4} alt=""/>
           </div>
-            <h3>Face-Detection</h3>
+            <h3>Real Estate Price Prediction</h3>
             <div className='portfolio__item-cta'>
             <a href='https://github.com/AyushGupta2114/Real-Estate-Price-Prediction' className='btn' target='_blank'>Github</a>
             <a href="#contact" className='btn btn-primary'>Live Demo</a>
