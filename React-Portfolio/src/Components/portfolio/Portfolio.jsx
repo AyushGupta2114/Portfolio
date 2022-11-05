@@ -3,9 +3,9 @@ import './portfolio.css'
 import IMG1 from '../../assets/real-time.jpg'
 import IMG2 from '../../assets/portfoliomine.jpg'
 import IMG3 from '../../assets/solid_works.jpg'
-import IMG5 from '../../assets/tic3.jfif'
 import IMG4 from '../../assets/price.jfif'
 import IMG6 from '../../assets/webclone.jpg'
+import IMG5 from '../../assets/Android Apps.jpg'
 const Portfolio = () => {
   return (
     <section id='portfolio'>
