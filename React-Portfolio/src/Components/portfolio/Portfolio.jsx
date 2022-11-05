@@ -57,9 +57,9 @@ const Portfolio = () => {
           <div className='portfolio__item-image_5'>
             <img src={IMG5} alt=""/>
           </div>
-            <h3>Tic-Tac-Toe</h3>
+            <h3>Android Apps</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Tic-Tac-Toe-game' className='btn' target='_blank'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Android-Development-Chapters' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
