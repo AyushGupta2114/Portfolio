@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css'
-import {FaFacebook} from 'react-icons/fa'
+import {BsGithub} from 'react-icons/bs'
 import {RiTwitterLine} from 'react-icons/ri'
-import {BsInstagram} from 'react-icons/bs'
+import {FiInstagram} from 'react-icons/fi'
 var nav = document.querySelector('nav');
 
 const Footer = ()=> {
@@ -19,9 +19,9 @@ const Footer = ()=> {
         <li><a href="#contat">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href='https://facebook.com' target='blank'><FaFacebook size={30}/></a>
+        <a href='https://facebook.com' target='blank'><BsGithub size={30}/></a>
         <a href='https://twitter.com' target='blank'><RiTwitterLine size={30}/></a>
-        <a href='https://instagram.com' target='blank'><BsInstagram size={30}/></a>
+        <a href='https://instagram.com' target='blank'><FiInstagram size={30}/></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; All rights reserved
