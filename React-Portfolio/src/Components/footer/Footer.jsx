@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import {BsGithub} from 'react-icons/bs'
 import {RiTwitterLine} from 'react-icons/ri'
-import {FiInstagram} from 'react-icons/fi'
+import {GrLinkedin} from 'react-icons/gr'
 var nav = document.querySelector('nav');
 
 const Footer = ()=> {
@@ -19,8 +19,8 @@ const Footer = ()=> {
         <li><a href="#contat">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href='https://facebook.com' target='blank'><BsGithub size={30}/></a>
-        <a href='https://twitter.com' target='blank'><RiTwitterLine size={30}/></a>
+        <a href='https://github.com/AyushGupta2114' target='blank'><BsGithub size={30}/></a>
+        <a href='https://www.linkedin.com/in/ayush-gupta2205/' target='blank'><GrLinkedin size={30}/></a>
         <a href='https://instagram.com' target='blank'><FiInstagram size={30}/></a>
       </div>
       <div className="footer__copyright">
