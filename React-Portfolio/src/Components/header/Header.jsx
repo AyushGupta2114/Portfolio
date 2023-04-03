@@ -14,7 +14,7 @@ const Header = () => {
           Ayush Gupta
         </h1>
         <h5 className="text-light">
-          Front-end Developer
+          Student
         </h5>
         <CTA/>
         <HeaderSocials/>
