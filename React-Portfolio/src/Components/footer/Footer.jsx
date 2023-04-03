@@ -1,8 +1,8 @@
 import React from 'react'
 import './footer.css'
 import {BsGithub} from 'react-icons/bs'
-import {RiTwitterLine} from 'react-icons/ri'
 import {GrLinkedin} from 'react-icons/gr'
+import {FiInstagram} from 'react-icons/fi'
 var nav = document.querySelector('nav');
 
 const Footer = ()=> {
