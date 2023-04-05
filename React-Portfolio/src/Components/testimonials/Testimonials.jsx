@@ -5,27 +5,27 @@ import AVTR2 from '../../assets/logo2.png'
 import AVTR3 from '../../assets/Google.png'
 
 
-import { useRef, useState } from "react";
+import { Pagination } from "swiper";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
+
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-cards";
+import "swiper/css/pagination";
 
-// import required modules
-import { EffectCards } from "swiper";
-
+// import required module
 const data=[
   {
     avatar:AVTR1,
     name:'Artificial intelligence for Students',
-    review:'This workshop on artificial intelligence and machine learning was wonderful for learning the basics and their applications.' 
+    review:'This workshop on AI and ML was wonderful for learning the basics and their applications.' 
   },
   {
     avatar: AVTR2,
     name:'Python for Everybody Specialization',
-    review:'This specialization course was excellent for learning Python at all levels, from beginner to advanced.'
+    review:'This specialization course was excellent for learning Python at all levels, from beginner to advanced.  '
   },
   {
     avatar: AVTR3,
@@ -41,10 +41,11 @@ const Testimonials = () => {
       <h2>Certifications</h2>
 
       <Swiper className="container testimonials__container"
-         effect={"cards"}
-        grabCursor={true}
-        modules={[EffectCards]}
-        >
+         modules={[Pagination]}
+      spaceBetween={50}
+      slidesPerview={3}
+      pagination={{clickable:true}}>
+
         {
           data.map(({avatar,name,review},index)=>{
             return(
