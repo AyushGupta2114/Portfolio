@@ -17,10 +17,11 @@ import "swiper/css/pagination";
 
 // import required module
 const data=[
+  
   {
-    avatar:AVTR1,
-    name:'Artificial intelligence for Students',
-    review:'This workshop on AI and ML was wonderful for learning the basics and their applications.' 
+    avatar: AVTR3,
+    name:'Machine Learning Specialization',
+    review:'This specialization course was excellent for learning AI/ML and deep learning at all levels, from beginner to advanced.'
   },
   {
     avatar: AVTR2,
@@ -28,9 +29,9 @@ const data=[
     review:'This specialization course was excellent for learning Python at all levels, from beginner to advanced.  '
   },
   {
-    avatar: AVTR3,
-    name:'User Experience (UX) Design',
-    review:'This specialization course was excellent for learning UI/UX design at all levels, from beginner to advanced.'
+    avatar:AVTR1,
+    name:'Artificial intelligence for Students',
+    review:'This workshop on AI and ML was wonderful for learning the basics and their applications.' 
   },
 ]
 
