@@ -181,8 +181,16 @@
         grid-template-columns: 1fr;
         gap:1fr; 
     }
+    
     .portfolio__item{
         margin-left: 1rem;
         margin:0 0.1% 10% .4rem
+    }
+    .portfolio__item_6 h3{
+        padding-left: 10px;
+        padding-bottom: 30px;
+        padding-top: 2px;
+        margin-bottom: 2px;
+        
     }
 }

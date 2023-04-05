@@ -103,11 +103,10 @@
     }
     .about__content{
         text-align:center;
-        
     }
 
     .about__content p {
-        margin: 10 1.5rem 10;
+        margin: 0 1.75rem 25px 30px;
         
     }
 }
