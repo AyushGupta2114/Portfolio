@@ -4,7 +4,8 @@ import {MdOutlineEmail} from  'react-icons/md'
 import {RiMessengerLine} from  'react-icons/ri'
 import {ImWhatsapp} from  'react-icons/im'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+// ✅ New
+import emailjs from '@emailjs/browser';
 const Contact = () => {
   const form=useRef();
   const sendEmail = (e) => {

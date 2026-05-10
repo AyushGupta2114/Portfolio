@@ -4,9 +4,6 @@ import AVTR1 from '../../assets/microsoft.png'
 import AVTR2 from '../../assets/logo2.png'
 import AVTR3 from '../../assets/Google.png'
 
-
-import { Pagination } from "swiper";
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -14,6 +11,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";   // if you want pagination styles
+import "swiper/css/navigation";   // if you want navigation styles
+
+// Import required modules
+import { Pagination, Navigation } from "swiper/modules";
 
 // import required module
 const data=[
