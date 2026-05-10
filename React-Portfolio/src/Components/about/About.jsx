@@ -24,24 +24,23 @@ const About = () => {
         <article className='about__card'>
           <FaAward className='about__icon'/>
           <h5>Experience</h5>
-          <small>1.5+ year Working</small>
+          <small>2+ year </small>
         </article>
         <article className='about__card'>
           <FiUsers className='about__icon'/>
-          <h5>React</h5>
-          <small>One Project</small>
+          <h5>Ad hoc analysis</h5>
+          <small>100+</small>
         </article>
         <article className='about__card'>
           <VscFolderLibrary  className='about__icon'/>
           <h5>Projects</h5>
-          <small>12 completed</small>
+          <small>20+ completed</small>
         </article>
       </div>
       
       <p>
-      Hello. I am currently pursuing an undergraduate degree in Computer Science and Engineering with a major in AI and ML at SRM Institute of Science and Technology
+        Hi, I'm Ayush Gupta — I hold an undergraduate degree in Computer Science and Engineering (AI & ML) and work as a Data Scientist in the AI division at Mahindra Group Technology Office. I focus on automation and optimization and handle day-to-day data analysis to deliver actionable insights for the hospitality sector.
       </p>
-
       <a href='#contact' className='btn btn-primary'>Lets' Talk</a>
     </div>
     </div>

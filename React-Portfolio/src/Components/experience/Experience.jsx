@@ -16,72 +16,92 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>AI & ML</h4>
+              <h4>Data Analysis, QA</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>C Programming</h4>
+              <h4>AWS and Microsoft Azure </h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
             <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>Web Development</h4>
+              <h4>Data Visualization</h4>
               <small className='text-light'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>Python</h4>
+              <h4>Automation and Optimization</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>C++</h4>
+              <h4>C++ & C Programming</h4>
               <small className='text-light'>Experienced</small>
-              </div>
-              
+              </div>            
+            </article>
+              <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>Machine Learning and Data Science</h4>
+              <small className='text-light'>Experienced</small>
+              </div>            
             </article>
           </div>
         </div>
         <div className='experience__backend'>
         <h3>
-            Non-Programming Language
+            Non-Programming Skills
           </h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>AutoCad 3D</h4>
+              <h4>Project Management</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>SolidWorks</h4>
+              <h4>Problem Solving</h4>
+              <small className='text-light'>Experienced</small>
+              </div>
+            </article>
+            <article className='experience__details'> 
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+              <h4>Excel</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>UX/UI Design</h4>
+                <h4>AutoCad 3D & SolidWorks</h4>
               <small className='text-light'>Beginner</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>MySQL</h4>
-              <small className='text-light'>Experienced</small>
+                <h4>UI / UX Design</h4>
+              <small className='text-light'>Beginner</small>
+              </div>
+            </article>
+                        <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>LLM Tools & VCS</h4>
+              <small className='text-light'>Beginner</small>
               </div>
             </article>
           </div>
