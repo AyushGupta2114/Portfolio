@@ -16,10 +16,9 @@ import "swiper/css/pagination";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";   // if you want pagination styles
-import "swiper/css/navigation";   // if you want navigation styles
 
-// Import required modules
-import { Pagination, Navigation } from "swiper/modules";
+// If you don’t need navigation arrows:
+import { Pagination } from "swiper/modules";
 
 // import required module
 const data=[
