@@ -4,7 +4,7 @@ import {MdOutlineEmail} from  'react-icons/md'
 import {RiMessengerLine} from  'react-icons/ri'
 import {ImWhatsapp} from  'react-icons/im'
 import { useRef } from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 const Contact = () => {
   const form=useRef();
   const sendEmail = (e) => {
@@ -29,19 +29,19 @@ const Contact = () => {
             <MdOutlineEmail size={22} className='contac__option-icon'/>
             <h4>Email</h4>
             <h5>ayushgupta220503@gmail.com</h5>
-            <a href="mailto:sumitayushh22@gmail.com" target='_blank'>Send a message</a>
+            <a href="mailto:sumitayushh22@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className='contact__option'>
             <RiMessengerLine size={22} className='contac__option-icon'/>
             <h4>Messenger </h4>
             <h5>ayush gupta</h5>
-            <a href="https://m.me/ernest.achiever"target='_blank'>Send a message</a>
+            <a href="https://m.me/ernest.achiever" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
           <article className='contact__option'>
             <ImWhatsapp size={22} className='contac__option-icon'/>
             <h4>WhatApp</h4>
             <h5>+8765705001</h5>
-            <a href="https://wa.me/8765705001?text="target='_blank'>Send a message</a>
+            <a href="https://wa.me/8765705001?text=" target='_blank' rel='noreferrer'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>

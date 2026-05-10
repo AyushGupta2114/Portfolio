@@ -3,14 +3,13 @@ import './footer.css'
 import {BsGithub} from 'react-icons/bs'
 import {GrLinkedin} from 'react-icons/gr'
 import {FiInstagram} from 'react-icons/fi'
-var nav = document.querySelector('nav');
 
 const Footer = ()=> {
   return (
     <footer>
       <a href="a" className='footer__logo'>Ayush</a>
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#services">Stages</a></li>
