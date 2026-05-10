@@ -19,7 +19,7 @@ const Portfolio = () => {
           </div>
             <h3>Face-Detection-Attendance</h3>
            <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Real-Time-Face-Recognition' className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Real-Time-Face-Recognition' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -29,7 +29,7 @@ const Portfolio = () => {
           </div>
             <h3>Portfolio</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Portfolio' className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Portfolio' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -39,7 +39,7 @@ const Portfolio = () => {
           </div>
             <h3>SolidWorks 3D - Chassis</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/SOLIDWORKS-3D' className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href='https://github.com/AyushGupta2114/SOLIDWORKS-3D' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           </div>
             <h3>Real Estate Price Prediction</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Real-Estate-Price-Prediction' className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Real-Estate-Price-Prediction' className='btn' target='_blank'>Github</a>
             <a href="#contact" className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -59,7 +59,7 @@ const Portfolio = () => {
           </div>
             <h3>Android Apps</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Android-Development-Chapters' className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Android-Development-Chapters' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>
@@ -69,7 +69,7 @@ const Portfolio = () => {
           </div>
             <h3>Website_Clone</h3>
             <div className='portfolio__item-cta'>
-            <a href='https://github.com/AyushGupta2114/Website_Clone' className='btn' target='_blank' rel='noreferrer'>Github</a>
+            <a href='https://github.com/AyushGupta2114/Website_Clone' className='btn' target='_blank'>Github</a>
             <a href='#contact' className='btn btn-primary'>Live Demo</a>
            </div>
         </article>

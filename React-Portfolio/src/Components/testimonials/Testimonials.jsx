@@ -4,15 +4,16 @@ import AVTR1 from '../../assets/microsoft.png'
 import AVTR2 from '../../assets/logo2.png'
 import AVTR3 from '../../assets/Google.png'
 
+
+import { Pagination } from "swiper";
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// If you don’t need navigation arrows:
-import { Pagination } from "swiper/modules";
 
 // import required module
 const data=[
@@ -50,8 +51,8 @@ const Testimonials = () => {
           data.map(({avatar,name,review},index)=>{
             return(
               <SwiperSlide key={index} className='testimonial'>
-              <div className="client__avatar">
-                <img src={avatar} alt={name}/>
+              <div class="client__avatar">
+                <img src={avatar}/>
                 </div>
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>

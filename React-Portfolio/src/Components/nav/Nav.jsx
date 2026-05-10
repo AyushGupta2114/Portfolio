@@ -8,7 +8,7 @@ import {BiMessageSquareDetail} from 'react-icons/bi'
 import {useState,Fragment} from 'react'
 
 const Nav = () => {
-  const[activeNav,setActiveNav] = useState('#')
+  const[activeNav,setActiveNav] = useState('')
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () =>{
      if(window.scrollY >= 4570){
@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <Fragment>
     <nav className={colorChange ? 'navbar colorChange' : 'nav'}>
-      <a href="#home" onClick={()=>setActiveNav('#home')} className={activeNav==='#home' ? 'active':''}><AiOutlineHome/></a>
+      <a href="#" onClick={()=>setActiveNav('#')}className={activeNav==='#' ? 'active':''}><AiOutlineHome/></a>
       <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav==='#about' ? 'active':''}><AiOutlineUser/></a>
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav==='#experience' ? 'active':''}><BiBook/></a>
       <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav==='#services' ? 'active':''}><RiServiceLine/></a>

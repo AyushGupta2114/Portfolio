@@ -43,7 +43,7 @@ const Services = () => {
             </li>
             <li>
               <BsCheck2All size={17} className='service__list-icon'/>
-              <p><a target='_blank' rel='noreferrer' style={{color: 'var(--color-bg-varient)'}} href="https://camberracing.com/">Camber Racing</a></p>
+              <p><a target='_blank' linkcolor='--color-bg-varient' href="https://camberracing.com/">Camber Racing</a></p>
             </li>
             <li>
               <BsCheck2All size={17} className='service__list-icon'/>
@@ -51,7 +51,7 @@ const Services = () => {
             </li>
             <li>
               <BsCheck2All size={17} className='service__list-icon'/>
-              <p><a target='_blank' rel='noreferrer' style={{color: 'var(--color-bg-varient)'}} href="https://aaruush.org/">aaruush</a></p>
+              <p><a target='_blank' linkcolor='--color-bg-varient' href="https://aaruush.org/">aaruush</a></p>
             </li>
           </ul>
           </article>

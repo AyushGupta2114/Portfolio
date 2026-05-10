@@ -4,8 +4,7 @@ import {MdOutlineEmail} from  'react-icons/md'
 import {RiMessengerLine} from  'react-icons/ri'
 import {ImWhatsapp} from  'react-icons/im'
 import { useRef } from 'react';
-// ✅ New
-import emailjs from '@emailjs/browser';
+import emailjs from 'emailjs-com'
 const Contact = () => {
   const form=useRef();
   const sendEmail = (e) => {
@@ -30,25 +29,25 @@ const Contact = () => {
             <MdOutlineEmail size={22} className='contac__option-icon'/>
             <h4>Email</h4>
             <h5>ayushgupta220503@gmail.com</h5>
-            <a href="mailto:sumitayushh22@gmail.com" target='_blank' rel='noreferrer'>Send a message</a>
+            <a href="mailto:sumitayushh22@gmail.com" target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
             <RiMessengerLine size={22} className='contac__option-icon'/>
             <h4>Messenger </h4>
             <h5>ayush gupta</h5>
-            <a href="https://m.me/ernest.achiever" target='_blank' rel='noreferrer'>Send a message</a>
+            <a href="https://m.me/ernest.achiever"target='_blank'>Send a message</a>
           </article>
           <article className='contact__option'>
             <ImWhatsapp size={22} className='contac__option-icon'/>
             <h4>WhatApp</h4>
             <h5>+8765705001</h5>
-            <a href="https://wa.me/8765705001?text=" target='_blank' rel='noreferrer'>Send a message</a>
+            <a href="https://wa.me/8765705001?text="target='_blank'>Send a message</a>
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required/>
           <input type='email' name='email' placeholder='Your Email' required/>
-          <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
+          <textarea name="message" rows="7" placeholder='Your Meassage' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
            </form>
       </div>
