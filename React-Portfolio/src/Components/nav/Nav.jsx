@@ -22,7 +22,7 @@ const Nav = () => {
   return (
     <Fragment>
     <nav className={colorChange ? 'navbar colorChange' : 'nav'}>
-      <a href="#active" onClick={()=>setActiveNav('#')}className={activeNav==='#' ? 'active':''}><AiOutlineHome/></a>
+      <a href="#home" onClick={()=>setActiveNav('#home')}className={activeNav==='#home' ? 'active':''}><AiOutlineHome/></a>
       <a href="#about" onClick={()=>setActiveNav('#about')} className={activeNav==='#about' ? 'active':''}><AiOutlineUser/></a>
       <a href="#experience" onClick={()=>setActiveNav('#experience')} className={activeNav==='#experience' ? 'active':''}><BiBook/></a>
       <a href="#services" onClick={()=>setActiveNav('#services')} className={activeNav==='#services' ? 'active':''}><RiServiceLine/></a>
