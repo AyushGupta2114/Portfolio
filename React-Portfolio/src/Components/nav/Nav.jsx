@@ -8,7 +8,7 @@ import {BiMessageSquareDetail} from 'react-icons/bi'
 import {useState,Fragment} from 'react'
 
 const Nav = () => {
-  const[activeNav,setActiveNav] = useState('')
+  const[activeNav,setActiveNav] = useState('#')
   const [colorChange, setColorchange] = useState(false);
   const changeNavbarColor = () =>{
      if(window.scrollY >= 4570){
